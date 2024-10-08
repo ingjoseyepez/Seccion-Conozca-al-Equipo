@@ -226,12 +226,12 @@ img {
     border-radius: 0px;
   }
   .descripcion {
-   top: 95%;
+   top: -2%;
   }
   .descripcion h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
   .descripcion p {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
