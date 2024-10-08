@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Agregada para evitar problemas de diseño */
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 1000px;
+  background: #f3f4f6 url("img/Background_decor.svg") no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: -2px -2px 16px -4px rgba(0, 0, 0, 0.75);
+}
+
+header {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+header a {
+  color: #3662e3;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+header h1,
+header p {
+  margin-left: 30px;
+}
+
+header h1 {
+  margin: 10px 0;
+  font-size: 40px;
+  font-weight: 500;
+  color: #000;
+  margin-left: 30px;
+}
+
+header p {
+  width: 85%;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #000;
+}
+
+.profile {
+  width: 25%;
+  display: flex;
+  background-image: url("img/Gradient.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* Cambiado para .descripcion */
+}
+
+.profile_uno {
+  background-color: #c1b6f8;
+}
+.profile_dos {
+  background-color: #edacd2;
+  border-top-right-radius: 20px;
+}
+.profile_cuatro {
+  background-color: #9dc4f8;
+}
+.profile_cinco {
+  background-color: #f8d8b0;
+}
+.profile_seis {
+  background-color: #86e7d4;
+  border-bottom-right-radius: 20px;
+}
+
+.profile_tres {
+  width: 22%;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+
+.profile_tres a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.profile_tres img {
+  width: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.descripcion {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 190px;
+  margin-left: 20px;
+}
+
+.descripcion h2,
+.descripcion p {
+  color: #fffefe;
+}
+
+.descripcion h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.descripcion p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Media Queries para diseño responsive */
+@media (max-width: 1024px) {
+  section {
+    width: 630px;
+  }
+
+  header,
+  .profile {
+    width: 100%;
+  }
+
+  .profile {
+    width: 210px;
+  }
+
+  .profile_dos {
+    border-radius: 0px;
+  }
+  .profile_tres {
+    width: 180px;
+    padding: 20px 0;
+    order: 2;
+  }
+  .profile_cuatro {
+    order: 1;
+  }
+  .profile_seis {
+    order: 2;
+  }
+  .profile_cinco {
+    order: 2;
+  }
+  .descripcion {
+    margin-top: 170px;
+  }
+
+  .descripcion h2 {
+    font-size: 16px;
+  }
+  .descripcion p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 640px) {
+  section {
+    width: 400px;
+  }
+
+  .profile {
+    width: 50%;
+  }
+
+  .profile_tres {
+    width: 42.5%;
+    order: 2;
+  }
+  .profile_cuatro {
+    order: 1;
+  }
+  .profile_seis {
+    order: 2;
+  }
+  .profile_cinco {
+    order: 1;
+  }
+  .descripcion {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  section {
+    width: 350px;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .descripcion {
+    margin-top: 280px;
+  }
+  .profile_tres {
+    order: 2;
+  }
+  .profile_seis {
+    order: 1;
+    border-radius: 0px;
+  }
+  .descripcion {
+    margin-top: 280px;
+  }
+  .descripcion h2 {
+    font-size: 20px;
+  }
+  .descripcion p {
+    font-size: 16px;
+  }
+}
