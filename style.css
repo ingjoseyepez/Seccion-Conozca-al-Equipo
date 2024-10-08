@@ -57,7 +57,7 @@ header p {
   margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
-  color: #000;
+  color: #394150;
 }
 
 .profile {
@@ -65,7 +65,7 @@ header p {
   display: flex;
   background-image: url("img/Gradient.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:  cover;
   position: relative; /* Cambiado para .descripcion */
 }
 
@@ -101,7 +101,7 @@ header p {
 }
 
 .profile_tres a {
-  color: #000;
+  color: #394150;
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
