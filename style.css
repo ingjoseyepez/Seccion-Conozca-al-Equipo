@@ -68,6 +68,11 @@ header p {
   position: relative; /* Cambiado para .descripcion */
 }
 
+.profile :hover{
+    -webkit-filter: sepia(1);
+   filter: sepia(1);
+}
+
 .profile_uno {
   background-color: #c1b6f8;
 }
