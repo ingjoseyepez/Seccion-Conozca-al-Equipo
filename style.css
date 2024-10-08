@@ -93,7 +93,7 @@ header p {
 }
 
 .profile_tres {
-  width: 245px;
+  width: 22%;
   display: flex;
   align-items: flex-end;
   margin-left: 30px;
@@ -112,7 +112,7 @@ header p {
 }
 
 img {
-  width: 280px;
+  width: 100%;
 }
 
 .descripcion {
@@ -172,9 +172,7 @@ img {
   .profile_cinco {
     order: 2;
   }
-  .descripcion {
-    margin-top: 170px;
-  }
+
 
   .descripcion h2 {
     font-size: 16px;
@@ -206,9 +204,6 @@ img {
   .profile_cinco {
     order: 1;
   }
-  .descripcion {
-    margin-top: 150px;
-  }
 }
 
 @media (max-width: 400px) {
@@ -231,7 +226,7 @@ img {
     border-radius: 0px;
   }
   .descripcion {
-    margin-top: 280px;
+   top: 95%;
   }
   .descripcion h2 {
     font-size: 20px;
