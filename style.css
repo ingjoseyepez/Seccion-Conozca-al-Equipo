@@ -20,7 +20,7 @@ section {
   background: #f3f4f6 url("img/Background_decor.svg") no-repeat;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 80px;
   border-radius: 20px;
 }
 
@@ -55,7 +55,7 @@ header h1 {
 header p {
   width: 80%;
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #000;
 }
@@ -103,7 +103,7 @@ header p {
 .profile_tres a {
   color: #000;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
 }
 
